@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio Kavin</title>
+
+</head>
+
+<body>
+
+
+    <!-- HEADER  -->
+
+    <header class="kepala">
+
+        <!-- Logo -->
+        <a href="#beranda" class="logo">KAVIN</a>
+
+
+        <!-- Tombol Menu Mobile -->
+        <div class="ikon-menu" id="ikon-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+        <!-- Navigasi -->
+        <nav class="navigasi" id="navigasi">
+
+            <a href="#beranda" class="aktif">Beranda</a>
+
+            <a href="#tentang">Tentang</a>
+
+            <a href="#skill">Skill</a>
+
+            <a href="#organisasi">Organisasi</a>
+
+            <a href="#kontak">Kontak</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!--  BERANDA  -->
+
+    <section class="beranda" id="beranda">
+
+        <!-- Foto -->
+        <div class="foto-beranda">
+
+            <img src="hero.jpg" alt="Foto Kavin">
+
+        </div>
+
+
+        <!-- Isi Beranda -->
+        <div class="isi-beranda">
+
+            <h1>
+                Hi, It's <span>Kavin</span>
+            </h1>
+
+
+            <h3>
+                I'm a <span>Kamen Rider</span>
+            </h3>
+
+
+            <p>
+                Manis bukan hanya di mulut, tapi juga di hati.
+                Kebaikan yang dilakukan bukan hanya sekadar ucapan,
+                tapi juga kebaikan dengan sepenuh hati.
+            </p>
+
+
+            <!-- Media Sosial -->
+            <div class="media-sosial">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+
+            <!-- Tombol -->
+            <a href="#kontak" class="tombol">
+                Hubungi Saya
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!--  TENTANG  -->
+
+    <section class="tentang" id="tentang">
+
+        <div class="judul-bagian">
+
+            <p>TENTANG SAYA</p>
+
+            <h2>Tentang Saya</h2>
+
+        </div>
+
+
+        <div class="isi-tentang">
+
+            <p>
+                Halo, saya Kavin. Saya merupakan mahasiswa
+                Informatika Universitas Jember yang belajar
+                Tentang pemrograman, desain,
+                dan teknologi.
+            </p>
+
+
+            <p>
+                Saya suka belajar hal-hal baru dan ingin terus belajar
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!--  SKILL -->
+
+    <section class="skill" id="skill">
+
+        <div class="judul-bagian">
+
+            <p>KEMAMPUAN SAYA</p>
+
+            <h2>Skill Saya</h2>
+
+        </div>
+
+
+        <div class="wadah-skill">
+
+
+            <!-- HTML -->
+            <div class="kartu-skill">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML</h3>
+
+                <p>
+                    Membuat struktur website.
+                </p>
+
+            </div>
+
+
+            <!-- CSS -->
+            <div class="kartu-skill">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS</h3>
+
+                <p>
+                    Mendesain dan membuat website responsive.
+                </p>
+
+            </div>
+
+
+            <!-- JavaScript -->
+            <div class="kartu-skill">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Membuat website lebih interaktif.
+                </p>
+
+            </div>
+
+
+            <!-- Figma -->
+            <div class="kartu-skill">
+
+                <i class="fa-brands fa-figma"></i>
+
+                <h3>Figma</h3>
+
+                <p>
+                    Membuat desain website dan berbagai kebutuhan
+                    desain lainnya.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!--  ORGANISASI  -->
+
+    <section class="organisasi" id="organisasi">
+
+        <div class="judul-bagian">
+
+            <p>ORGANISASI</p>
+
+            <h2>Organisasi</h2>
+
+        </div>
+
+
+        <div class="isi-organisasi">
+
+            <div class="kartu-organisasi">
+
+                <i class="fa-solid fa-users"></i>
+
+                <h3>HMIF UNEJ</h3>
+
+                <p>
+                    Aktif dalam kegiatan organisasi mahasiswa
+                    dan berbagai kegiatan kepanitiaan.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- KONTAK -->
+
+    <section class="kontak" id="kontak">
+
+        <div class="judul-bagian">
+
+            <p>KONTAK</p>
+
+            <h2>Hubungi Saya</h2>
+
+        </div>
+
+
+        <!-- Form Kontak -->
+        <form id="form-kontak">
+
+
+            <!-- Nama -->
+            <div class="kotak-input">
+
+                <input
+                    type="text"
+                    id="nama"
+                    placeholder="Nama"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="kotak-input">
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Pesan -->
+            <div class="kotak-input">
+
+                <textarea
+                    id="pesan"
+                    rows="6"
+                    placeholder="Pesan"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <!-- Tombol Kirim -->
+            <button
+                type="submit"
+                class="tombol"
+            >
+                Kirim Pesan
+            </button>
+
+        </form>
+
+
+        <!-- Pesan dari JavaScript -->
+        <p id="pesan-form"></p>
+
+    </section>
+
+
+
+    <!--  JAVASCRIPT  -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
